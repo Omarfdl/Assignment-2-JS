@@ -1,0 +1,38 @@
+:root{
+    --main-color: rgb(20, 170, 207);
+    --sec-color: rgb(0, 40, 85);
+}
+
+body{
+    background-image: url(../947776.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    font-weight: 900;
+    font-family: Impact;
+    font-size: 5rem;
+    color: #d2d6e0;
+    box-shadow: 0px 6px 12px 10px rgba(2, 79, 141, 0.418);
+    background-image: linear-gradient(var(--sec-color), var(--main-color));
+    border-radius: 25px;
+    text-shadow: 5px 3px 4px var(--sec-color);
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.2rem;
+    color: #bbc7cc;
+}
+
+button{
+    background-color: var(--main-color);
+    color: rgb(37, 37, 37);
+    transition: background-color .8s, color .8s;
+}
+
+button:hover{
+    background-color: var(--sec-color);
+    color: #d2d6e0;
+}
